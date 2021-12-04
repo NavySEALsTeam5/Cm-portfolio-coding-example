@@ -1,0 +1,25 @@
+22
+(body) 100 regular push ups
+(body) 100 tri-cep push ups
+(body) 100 wide push ups
+(body) 50 arm haulers
+(body) 30 mountain climber pull ups
+(body) 100 dips
+(body) 100 pull ups
+(body) 100 squats
+(body) 100 lunges
+(body) 100 switch lunges
+(body) 100 side squats
+(body) 100 salom skiers
+(body) 100 sit ups
+(body) 100 jumping jacks
+(body) 10 pistol squats (each leg)
+(body) 100 flutter kicks
+(body) 100 obliques
+(body) 100 leg levers
+(body) 100 second plank
+(body) 120 second side plank (each side)
+(body) 100 burpees
+(body) 100 mountain climbers
+(body) sprint 1200 meters as fast as you can
+

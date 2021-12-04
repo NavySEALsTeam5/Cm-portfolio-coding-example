@@ -1,0 +1,26 @@
+23
+(body) 50 regular push ups
+(body) 50 tri-cep push ups
+(body) 50 wide push ups
+(body) 25 arm haulers
+(body) 20 mountain climber pull ups
+(body) 50 dips
+(body) 20 pull ups
+(body) 50 squats
+(body) 50 lunges
+(body) 20 switch lunges
+(body) 50 side squats
+(body) 30 salom skiers
+(body) 50 sit ups
+(body) 50 jumping jacks
+(body) 2 pistol squats (each leg)
+(body) 50 flutter kicks
+(body) 50 obliques
+(body) 50 leg levers
+(body) 60 second plank
+(body) 60 second side plank (each side)
+(body) 50 burpees
+(body) 30 mountain climbers
+(body) sprint 400 meters as fast as you can
+
+
