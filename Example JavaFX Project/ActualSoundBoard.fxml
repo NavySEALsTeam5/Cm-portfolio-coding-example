@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="939.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ActualSoundBoard_controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="446.0" stroke="BLACK" strokeType="INSIDE" width="939.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="229.0" layoutY="436.0" stroke="BLACK" strokeType="INSIDE" width="939.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0a0a" height="40.0" layoutX="16.0" layoutY="410.0" stroke="BLACK" strokeType="INSIDE" width="918.0" />
+      <Button layoutX="705.0" layoutY="167.0" mnemonicParsing="false" onAction="#Inception" text="Inception" />
+      <Button layoutX="824.0" layoutY="117.0" mnemonicParsing="false" onAction="#BaDum" text="baDum" />
+      <Button layoutX="879.0" layoutY="117.0" mnemonicParsing="false" onAction="#bark" text="bark" />
+      <Button layoutX="705.0" layoutY="142.0" mnemonicParsing="false" onAction="#CrowdRoar" text="Crowd Roar" />
+      <Button layoutX="711.0" layoutY="39.0" mnemonicParsing="false" onAction="#Denied" text="Denied" />
+      <Button layoutX="764.0" layoutY="39.0" mnemonicParsing="false" onAction="#fail" text="fail" />
+      <Button layoutX="799.0" layoutY="39.0" mnemonicParsing="false" onAction="#finish" text="finish" />
+      <Button layoutX="843.0" layoutY="39.0" mnemonicParsing="false" onAction="#glock" text="glock" />
+      <Button layoutX="886.0" layoutY="39.0" mnemonicParsing="false" onAction="#ha" text="ha" />
+      <Button layoutX="715.0" layoutY="64.0" mnemonicParsing="false" onAction="#horns" text="horns" />
+      <Button layoutX="760.0" layoutY="64.0" mnemonicParsing="false" onAction="#infinity" text="infinity" />
+      <Button layoutX="811.0" layoutY="64.0" mnemonicParsing="false" onAction="#johnCena" text="John Cena" />
+      <Button layoutX="882.0" layoutY="64.0" mnemonicParsing="false" onAction="#kick" text="kick" />
+      <Button layoutX="715.0" layoutY="93.0" mnemonicParsing="false" onAction="#laser" text="laser" />
+      <Button layoutX="709.0" layoutY="14.0" mnemonicParsing="false" onAction="#leeroy" text="leeroy" />
+      <ProgressBar fx:id="songProgressBar" layoutX="11.0" layoutY="365.0" prefHeight="18.0" prefWidth="927.0" progress="0.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="218.0" layoutY="457.0" prefHeight="40.0" prefWidth="52.0" text=" Song Volume" textFill="#d11616" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="490.0" layoutY="453.0" prefHeight="47.0" prefWidth="52.0" text="Effects Volume" textFill="#c40000" wrapText="true" />
+      <Button layoutX="66.0" layoutY="417.0" mnemonicParsing="false" onAction="#stopButton" text="Stop" />
+      <Button layoutX="21.0" layoutY="417.0" mnemonicParsing="false" onAction="#playMusic" text="Play" />
+      <Label alignment="CENTER" layoutX="165.0" layoutY="393.0" prefHeight="18.0" prefWidth="83.0" text="Music" textFill="#1df0ef" />
+      <Button layoutX="121.0" layoutY="417.0" mnemonicParsing="false" onAction="#previous" text="Previous" />
+      <Button layoutX="186.0" layoutY="417.0" mnemonicParsing="false" onAction="#next" text="Next" />
+      <Button layoutX="229.0" layoutY="417.0" mnemonicParsing="false" onAction="#shuffleButton" text="Shuffle On" />
+      <Button layoutX="377.0" layoutY="417.0" mnemonicParsing="false" onAction="#replay" text="Replay" />
+      <Button layoutX="436.0" layoutY="418.0" mnemonicParsing="false" onAction="#rewind" text="&lt;--15 sec" />
+      <Button layoutX="511.0" layoutY="418.0" mnemonicParsing="false" onAction="#skipFoward" text="15 sec --&gt;" />
+      <Button layoutX="755.0" layoutY="14.0" mnemonicParsing="false" onAction="#moments" text="moments" />
+      <Button layoutX="754.0" layoutY="93.0" mnemonicParsing="false" onAction="#victory" text="victory" />
+      <Button layoutX="822.0" layoutY="14.0" mnemonicParsing="false" onAction="#nope" text="nope" />
+      <Button layoutX="867.0" layoutY="14.0" mnemonicParsing="false" onAction="#punch" text="punch" />
+      <Button layoutX="835.0" layoutY="142.0" mnemonicParsing="false" onAction="#scramble" text="scramble" />
+      <Button layoutX="784.0" layoutY="142.0" mnemonicParsing="false" onAction="#scream" text="scream" />
+      <Button layoutX="758.0" layoutY="117.0" mnemonicParsing="false" onAction="#suspense" text="suspense" />
+      <Button layoutX="710.0" layoutY="117.0" mnemonicParsing="false" onAction="#target" text="target" />
+      <Button layoutX="854.0" layoutY="93.0" mnemonicParsing="false" onAction="#tieFighter" text="tie fighter" />
+      <Button layoutX="806.0" layoutY="93.0" mnemonicParsing="false" onAction="#toasty" text="toasty" />
+      <Button layoutX="208.0" layoutY="617.0" mnemonicParsing="false" onAction="#decreaseSpeed" prefHeight="26.0" prefWidth="46.0" text="-5%" />
+      <Button layoutX="207.0" layoutY="590.0" mnemonicParsing="false" onAction="#increaseSpeed" prefHeight="5.0" prefWidth="48.0" text="+5%" />
+      <Label fx:id="speedLabel" layoutX="255.0" layoutY="564.0" text="100%" textFill="#ba0be0" />
+      <Label layoutX="213.0" layoutY="548.0" prefHeight="40.0" prefWidth="66.0" text="Current Speed" textFill="#b90303" wrapText="true" />
+      <Button layoutX="223.0" layoutY="496.0" mnemonicParsing="false" onAction="#increaseVolume" prefHeight="26.0" prefWidth="41.0" text="+5%" />
+      <Button layoutX="223.0" layoutY="522.0" mnemonicParsing="false" onAction="#decreaseVolume" prefHeight="26.0" prefWidth="42.0" text="-5%" />
+      <Label fx:id="musicBalanceLabel" layoutX="343.0" layoutY="476.0" text="0.0" textFill="#ba02a2" />
+      <Button layoutX="516.0" layoutY="496.0" mnemonicParsing="false" onAction="#increaseVolume2" text="+5%" />
+      <Button layoutX="515.0" layoutY="522.0" mnemonicParsing="false" onAction="#decreaseVolume2" prefHeight="26.0" prefWidth="41.0" text="-5%" />
+      <Label alignment="CENTER" layoutX="501.0" layoutY="544.0" prefHeight="47.0" prefWidth="52.0" text="Effects Speed" textFill="#c40000" wrapText="true" />
+      <Label fx:id="speedLabel2" layoutX="542.0" layoutY="564.0" text="100%" textFill="#ba0be0" />
+      <Button layoutX="512.0" layoutY="591.0" mnemonicParsing="false" onAction="#increaseSpeed2" text="+5%" />
+      <Button layoutX="512.0" layoutY="617.0" mnemonicParsing="false" onAction="#decreaseSpeed2" prefHeight="26.0" prefWidth="46.0" text="-5%" />
+      <Button layoutX="889.0" layoutY="417.0" mnemonicParsing="false" onAction="#save" text="Save" />
+      <Label fx:id="soundVolume" layoutX="538.0" layoutY="467.0" text="50%" textFill="#ba02a2" />
+      <Button layoutX="670.0" layoutY="497.0" mnemonicParsing="false" onAction="#cycleUp" text="+1" />
+      <Button layoutX="670.0" layoutY="524.0" mnemonicParsing="false" onAction="#cycleDown" prefHeight="26.0" prefWidth="32.0" text="-1" />
+      <Label alignment="CENTER" layoutX="653.0" layoutY="457.0" prefHeight="40.0" prefWidth="50.0" text="loop" textFill="#c40000" wrapText="true" />
+      <Label fx:id="cycleCountLabel" layoutX="699.0" layoutY="468.0" text="1" textFill="#ba02a2" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="291.0" layoutY="462.0" prefHeight="40.0" prefWidth="52.0" text="Music L/R Balance" textFill="#d11616" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Button layoutX="302.0" layoutY="496.0" mnemonicParsing="false" onAction="#balenceLeft" prefHeight="26.0" prefWidth="60.0" text="left .05" />
+      <Button layoutX="302.0" layoutY="523.0" mnemonicParsing="false" onAction="#balenceRight" text="right .05" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="652.0" layoutY="553.0" prefHeight="40.0" prefWidth="52.0" text="Effect L/R Balance" textFill="#d11616" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="effectBalanceLabel" layoutX="708.0" layoutY="564.0" text="0.0" textFill="#ba02a2" />
+      <Button layoutX="656.0" layoutY="590.0" mnemonicParsing="false" onAction="#balenceLeft2" prefHeight="26.0" prefWidth="60.0" text="left .05" />
+      <Button layoutX="656.0" layoutY="616.0" mnemonicParsing="false" onAction="#balenceRight2" text="right .05" />
+      <Label fx:id="musicVolume" layoutX="258.0" layoutY="467.0" text="50%" textFill="#ba02a2" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="389.0" layoutY="326.0" prefHeight="40.0" prefWidth="111.0" text="Progress Bar" textFill="#173ccf" wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="17.0" layoutX="11.0" layoutY="379.0" stroke="BLACK" strokeType="INSIDE" width="927.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="5.0" layoutY="363.0" stroke="BLACK" strokeType="INSIDE" width="939.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="26.0" layoutX="9.0" layoutY="361.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="26.0" layoutX="931.0" layoutY="361.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+      <Button layoutX="844.0" layoutY="417.0" mnemonicParsing="false" onAction="#load" text="Load" />
+      <Button layoutX="585.0" layoutY="418.0" mnemonicParsing="false" onAction="#Mute" text="Mute" />
+      <Button layoutX="631.0" layoutY="418.0" mnemonicParsing="false" onAction="#unMute" text="Unmute" />
+      <Button layoutX="813.0" layoutY="167.0" mnemonicParsing="false" onAction="#fish" text="fish" />
+      <Label alignment="CENTER" layoutX="13.0" layoutY="18.0" prefHeight="32.0" prefWidth="111.0" text="Properties" textFill="#0716e1">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="musicPlaying" layoutX="22.0" layoutY="67.0" text="Not Playing" textFill="#f5ee00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="musicSpeed" layoutX="23.0" layoutY="125.0" prefHeight="20.0" prefWidth="90.0" text="Speed 100%" textFill="#f5ee00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="volumeInfo" layoutX="24.0" layoutY="108.0" prefHeight="20.0" prefWidth="90.0" text="Volume 50%" textFill="#f5ee00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="muteOnOrOff" layoutX="22.0" layoutY="89.0" text="Mute Off" textFill="#f5ee00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="773.0" layoutY="167.0" mnemonicParsing="false" onAction="#pewPew" text="pew" />
+      <Label fx:id="shuffleLabel" layoutX="24.0" layoutY="145.0" prefHeight="20.0" prefWidth="90.0" text="Shuffle Off" textFill="#f5ee00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="301.0" layoutY="417.0" mnemonicParsing="false" onAction="#unShuffle" text="Shuffle Off" />
+      <Label alignment="CENTER" layoutX="310.0" layoutY="50.0" prefHeight="45.0" prefWidth="279.0" text="SoundBoard" textFill="#0716e1">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Button layoutX="694.0" layoutY="417.0" mnemonicParsing="false" onAction="#setText" text="Show Song" />
+      <Button layoutX="770.0" layoutY="417.0" mnemonicParsing="false" onAction="#unSetText" text="Hide Song" />
+      <Label fx:id="titleLabel" alignment="CENTER" layoutX="228.0" layoutY="231.0" prefHeight="45.0" prefWidth="443.0" textFill="#ff08c5">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="titleLabel2" alignment="CENTER" layoutX="223.0" layoutY="276.0" prefHeight="45.0" prefWidth="443.0" textFill="#f229c3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
